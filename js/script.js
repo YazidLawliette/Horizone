@@ -63,7 +63,7 @@ function toggleFullscreen() {
 
 function toggleMobileMenu() {
     const mobileMenu = document.getElementById("mobile-menu");
-    mobileMenu.classList.toggle("scale-100");
+    mobileMenu.classList.toggle("scale-y-100");
 }
 
 

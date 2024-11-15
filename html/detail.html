@@ -35,19 +35,19 @@ a, .text-gray-300 {
 </head>
 <body class="p-1">
     <section  class="bg-[url('../img/image-2.jpg')] bg-cover bg-center bg-no-repeat w-full h-screen p-2 rounded-lg">
-        <nav class="navbar-bg duration-500 bg-transparent backdrop-blur-sm fixed w-[356px] md:w-[1459px] z-10 py-4 rounded-xl">
+        <nav class="navbar-bg bg-white duration-500 md:bg-transparent backdrop-blur-sm fixed w-[359px] md:w-[1323px] z-10 py-4 rounded-xl">
             <div class="container mx-auto flex justify-between items-center">
                 <div class="flex items-center gap-16">
                     <div class="flex items-center gap-2">
-                        <img src="../img/icon-header.png" alt="Logo" class="h-8">
+                        <img src="./img/icon-header.png" alt="Logo" class="h-8">
                         <h1 class="main-h1 font-bold text-xl md:text-2xl text-white"><a href="">Horizone</a></h1>
                     </div>
                     <ul class="gap-6 hidden md:flex">
-                        <li><a href="../index.html" class="text-black hover:text-gray-400">Home</a></li>
-                        <li><a href="./author.html" class="text-black hover:text-gray-400">About me</a></li>
-                        <li><a href="./contact.html" class="text-black hover:text-gray-400">Contact</a></li>
-                        <li><a href="#" class="text-black hover:text-gray-400">Travel</a></li>
-                        <li><a href="#" class="text-black hover:text-gray-400">Car Rental</a></li>
+                        <li><a href="../index.html" class="text-white hover:text-gray-400">Home</a></li>
+                        <li><a href="./author.html" class="text-white hover:text-gray-400">About me</a></li>
+                        <li><a href="./contact.html" class="text-white hover:text-gray-400">Contact</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-400">Travel</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-400">Car Rental</a></li>
                     </ul>
                 </div>
     
@@ -74,6 +74,19 @@ a, .text-gray-300 {
                     <i class="ph ph-list text-black text-2xl cursor-pointer p-1 px-2 hover:bg-gray-900 transition rounded-full hover:text-gray-100 "></i>
                 </div>
             </div>
+            <div id="mobile-menu" class="bg-transparent backdrop-blur-sm -scale-y-0 transition-all ease-in-out z- duration-300 mt-1">
+            <div class="flex absolute navbar-bg justify-center items-center bg-white w-[359px] h-[400px] rounded-b-xl">
+                <div class="flex flex-col p-4 mt-5">
+                    <ul class="flex flex-col gap-8">
+                        <li class="hover:underline transition-all duration-300"><a href="../index.html">Home</a></li>
+                        <li class="hover:underline transition-all duration-300"><a href="./author.html ">About me</a></li>
+                        <li class="hover:underline transition-all duration-300"><a href="./contact.html">Contact</a></li>
+                        <li class="hover:underline transition-all duration-300"><a href="#">Travel</a></li>
+                        <li class="hover:underline transition-all duration-300"><a href="#">Car Rental</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         </nav>
         <div id="mobile-menu" class=" scale-0 transition-all ease-in-out duration-300">
         <div class="flex absolute navbar-bg justify-center items-center bg-white w-[379px] h-[400px] rounded-xl">
