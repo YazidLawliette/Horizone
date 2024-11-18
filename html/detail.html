@@ -35,7 +35,7 @@ a, .text-gray-300 {
 </head>
 <body class="p-1">
     <section  class="bg-[url('../img/image-2.jpg')] bg-cover bg-center bg-no-repeat w-full h-screen p-2 rounded-lg">
-        <nav class="navbar-bg bg-white duration-500 md:bg-transparent backdrop-blur-sm fixed w-[361px] md:w-[1323px] z-10 py-4 rounded-xl">
+        <nav class="navbar-bg duration-500 md:bg-transparent backdrop-blur-sm fixed w-[361px] md:w-[1323px] z-10 py-4 rounded-xl">
             <div class="container mx-auto flex justify-between items-center">
                 <div class="flex items-center gap-16">
                     <div class="flex items-center gap-2">
@@ -61,7 +61,7 @@ a, .text-gray-300 {
                 <div class="hidden md:flex items-center gap-4">
                     <div class="flex items-center gap-2 cursor-pointer">
                         <div class="h-10 w-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition">
-                            <i class="ph ph-globe text-2xl"></i>
+                            <i class="main-h1 ph ph-globe text-2xl"></i>
                         </div>
                         <span class="text-gray-300 font-semibold">EN</span>
                     </div>
@@ -171,7 +171,7 @@ a, .text-gray-300 {
                 <p class="text-lg text-black font-thin">In this article, we’ll explore the stories behind some of the most famous hidden treasures found in remote places, the unique challenges of treasure hunting, and how these discoveries impact the world. Whether buried by ancient civilizations or lost due to unforeseen disasters, hidden treasures in far-flung locales reveal the enduring mystery of humanity’s past.</p>
             </div>
     
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full md:w-[900px] shadow-xl rounded-xl p-4 gap-80">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full md:w-[900px] shadow-xl rounded-xl p-4 gap-8 md:gap-80">
                 <div class="scale w-full md:w-[300px] h-auto transition-all duration-300 cursor-pointer">
                     <div class="relative">
                         <div class="bg-gray-700 w-fit h-fit px-4 py-1 rounded-full absolute top-4 left-4">
@@ -184,9 +184,9 @@ a, .text-gray-300 {
                         <h1 class="text-2xl font-medium">Unveiling the Secrets Beyond the Tourist Trails</h1>
                         <p class="mt-1">Dive into the local culture, discover hidden spots, and experience the authentic charm that often...</p>
                     </div>
-                    <div class="flex items-center gap-2 mt-4">
+                    <div  class="flex items-center gap-2 mt-4">
                         <div class="w-10 h-10 bg-[url('../img/img-people.jpeg')] bg-cover bg-center bg-no-repeat rounded-full"></div>
-                        <h2 class="font-medium">Yazid Lawliette</h2>
+                        <h2 class="font-medium hover:text-slate-500 transition-all duration-300" onclick="detailAuthor()">Yazid Lawliette</h2>
                     </div>
                     <div class="flex flex-wrap gap-2 mt-4">
                         <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-sm hover:scale-105 transition-all duration-300">#Exploration</span>
@@ -195,8 +195,28 @@ a, .text-gray-300 {
                         <span class="bg-red-500 text-white px-3 py-1 rounded-full text-sm hover:scale-105 transition-all duration-300">#HiddenGems</span>
                     </div>
                 </div>
+
+            <div id="detailAuthor" class="-scale-y-0 transition-all duration-300 absolute shadow-2xl">
+                <div class="flex flex-col gap-4 bg-white rounded-xl w-[300px] h-fit p-2 border border-black">
+                    <div>
+                        <img src="../img/img-people.jpeg" class="rounded-xl">
+                    </div>
+                    <div class="w-52">
+                        <h1 class="text-sm font-medium text-black">Yazid Lawliette</h1>
+                        <p class="text-gray-500 text-xs">Web Designer</p>
+                    </div>
+                    <div>
+                        <h1 class="text-sm font-medium text-black">Bergabung Sejak  :</h1>
+                        <p class="text-gray-500 text-xs">14 Oktober 2009</p>
+                    </div>
+                    <div>
+                        <h1 class="text-sm font-medium text-black">Jumlah blog  :</h1>
+                        <p class="text-gray-500 text-xs">209</p>
+                    </div>
+                </div>
+            </div>
             
-                <div class="scale w-full md:w-[300px] h-auto transition-all duration-300 hover:scale-105 cursor-pointer">
+                <div class="scale w-full md:w-[300px] h-auto cursor-pointer">
                     <div class="relative">
                         <div class="bg-gray-700 w-fit h-fit px-4 py-1 rounded-full absolute top-4 left-4">
                             <h1 class="text-white font-thin">Adventure</h1>

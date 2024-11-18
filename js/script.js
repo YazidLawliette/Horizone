@@ -66,5 +66,10 @@ function toggleMobileMenu() {
     mobileMenu.classList.toggle("scale-y-100");
 }
 
+function detailAuthor() {
+    const detailAuthor = document.getElementById("detailAuthor");
+    detailAuthor.classList.toggle("scale-y-100");
+}
+
 
 window.addEventListener("scroll", handleNavbarScroll);
